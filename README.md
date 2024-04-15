@@ -2,5 +2,5 @@
 
 # Game Snapshots
 
-## Snapshot 1 - Start (green)
+## Snapshot - Start
 ![snapshot1](snapshot1.png)
