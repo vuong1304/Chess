@@ -3,4 +3,4 @@
 # Game Snapshots
 
 ## Snapshot 1 - Start (green)
-![snapshot1](snapshots/snapshot1.png)
+![snapshot1](snapshot1.png)
