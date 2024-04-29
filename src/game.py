@@ -5,6 +5,7 @@ from board import Board
 from dragger import Dragger
 from config import Config
 from square import Square
+from ai import AI
 
 class Game:
 
@@ -14,6 +15,7 @@ class Game:
         self.board = Board()
         self.dragger = Dragger()
         self.config = Config()
+        self.AI = AI()
 
     # blit methods
 
@@ -102,9 +104,8 @@ class Game:
             rect = (self.hovered_sqr.col * SQSIZE, self.hovered_sqr.row * SQSIZE, SQSIZE, SQSIZE)
             # blit
             pygame.draw.rect(surface, color, rect, width=3)
-
+           
     # other methods
-
     def next_turn(self):
         self.next_player = 'white' if self.next_player == 'black' else 'black'
 

@@ -5,7 +5,7 @@ from sound import Sound
 from theme import Theme
 
 class Config:
-    # Initialize the Config class
+
     def __init__(self):
         self.themes = []
         self._add_themes()

@@ -1,8 +1,7 @@
-
 class Move:
 
     def __init__(self, initial, final):
-        # ban đầu và cuối cùng là hình vuông
+        # initial and final are squares
         self.initial = initial
         self.final = final
 

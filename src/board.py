@@ -97,7 +97,7 @@ class Board:
 
     def calc_moves(self, piece, row, col, bool=True):
         '''
-            Calculate all the possible moves
+            Calculate all the possible (valid) moves of an specific piece on a specific position
         '''
         
         def pawn_moves():
