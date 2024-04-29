@@ -1,4 +1,5 @@
 # Chess
+run main.py to play the game
 
 # Game Snapshots
 
