@@ -114,7 +114,7 @@ class Main:
                 elif game.next_player == 'black':
                     game.AI.board = copy.deepcopy(board)
                     game.AI.get_pieces()
-                    move = game.AI.get_greddy_moves()
+                    move = game.AI.find_best_move(game)
                     board.move(game.AI.piece, move)
                     print(game.AI.move_score(move))
                     game.show_bg(screen)
