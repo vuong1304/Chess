@@ -42,6 +42,11 @@ class AI:
         if self.board.squares[move.final.row][move.final.col].has_piece():
             return self.board.squares[move.final.row][move.final.col].piece.value
         return 0
+
+                
+
+            
+
             
         
         
