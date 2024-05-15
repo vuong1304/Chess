@@ -28,7 +28,6 @@
 
 `ESC` -> to quit the game and close the window
 `UP ARROW` & `DOWN ARROW` -> to change the game theme
-`LEFT ARROW` & `RIGHT ARROW` ->
 
 ## VISUALISATION OF PIECE BONUS MAPS
 
@@ -40,6 +39,9 @@ to visualize the piece bonus map , you just have to run the file visualizeMaps.p
 
 
 ## EXAMPLES
+
+`LEFT ARROW` & `RIGHT ARROW` -> to change the piece maps
+
 >King
 ![image](https://github.com/vuong1304/Chess/assets/162092580/c00bcdd4-c5a1-43a0-acf3-06b2df0ed97b)
 >Pawn
@@ -49,6 +51,9 @@ to visualize the piece bonus map , you just have to run the file visualizeMaps.p
 
 
 ## CHESS THEMES
+
+`UP ARROW` & `DOWN ARROW` -> to change the game theme
+
 ![image](https://github.com/vuong1304/Chess/assets/162092580/09592d67-d284-42b2-aefa-a90233fc5326)
 ![image](https://github.com/vuong1304/Chess/assets/162092580/077c91f4-d2a4-46a2-83cb-452d40669c01)
 ![image](https://github.com/vuong1304/Chess/assets/162092580/035b326e-1bed-466b-bc52-24d5f144c6b2)
