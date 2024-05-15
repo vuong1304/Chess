@@ -10,7 +10,7 @@ class Menu:
         self.multiplayer = ui.Button(screen, Config.width//2, Config.height//2 + 100, 120, 72, "Multiplayer")
         self.online = ui.Button(screen, Config.width//2, Config.height//2 + 200, 120, 72, "Online")
         self.exit = ui.Button(screen, Config.width//2, Config.height//2 + 300, 120, 72, "Exit")
-        self.background = pygame.image.load("./assets/images/background1.jpg")
+        self.background = pygame.image.load("./assets/images/background.jpg")
         self.background = pygame.transform.smoothscale(self.background, Config.resolution)
         self.title = ui.TextUI(self.screen, "CHESS", Config.width//2, Config.height//6, 100, (50, 50, 50))
         self.title.centered = True
