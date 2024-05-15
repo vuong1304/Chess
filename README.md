@@ -1,7 +1,8 @@
 ## Danh sách thành viên
 - 22022601 Cao Đặng Quốc Vương
 - 22022567 Hồ Minh Hoàng
-- 22022578 Chu Thân Nhất# Chess Game
+- 22022578 Chu Thân Nhất
+- MSV Lê Nguyên Vũ
 
 # Chess Game
 
