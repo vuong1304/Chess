@@ -6,9 +6,8 @@ import ui
 class Menu:
     def __init__(self, screen):
         self.screen = screen
-        self.vscomputer = ui.Button(screen, Config.width//2, Config.height//2, 120, 72, "VsComputer")
-        self.multiplayer = ui.Button(screen, Config.width//2, Config.height//2 + 100, 120, 72, "Multiplayer")
-        self.online = ui.Button(screen, Config.width//2, Config.height//2 + 200, 120, 72, "Online")
+        self.vscomputer = ui.Button(screen, Config.width//2, Config.height//2 + 100, 120, 72, "VsComputer")
+        self.multiplayer = ui.Button(screen, Config.width//2, Config.height//2 + 200, 120, 72, "Multiplayer")
         self.exit = ui.Button(screen, Config.width//2, Config.height//2 + 300, 120, 72, "Exit")
         self.background = pygame.image.load("./assets/images/background.jpg")
         self.background = pygame.transform.smoothscale(self.background, Config.resolution)
@@ -21,7 +20,6 @@ class Menu:
     def DrawButtons(self):
         self.vscomputer.Draw()
         self.multiplayer.Draw()
-        self.online.Draw()
         self.exit.Draw()
         self.title.Draw()
 
@@ -29,20 +27,16 @@ class Menu:
         mouse_position = pygame.mouse.get_pos()
         if self.vscomputer.get_rect().collidepoint(mouse_position):
             self.chess.gameOver = False
-            self.vscomputer.tempcolor = (255, 255, 180)
+            self.vscomputer.tempcolor = (50, 50, 50)
             print("vs computer screen")
             self.chess.vsComputer()
         elif self.multiplayer.get_rect().collidepoint(mouse_position):
             self.chess.gameOver = False
-            self.multiplayer.tempcolor = (255, 255, 180)
+            self.multiplayer.tempcolor = (50, 50, 50)
             print("multiplayer screen")
             self.chess.multiplayer()
-        elif self.online.get_rect().collidepoint(mouse_position):
-            self.chess.gameOver = False
-            self.online.tempcolor = (255, 255, 180)
-            print("online button screen")
         elif self.exit.get_rect().collidepoint(mouse_position):
-            self.exit.tempcolor = (255, 255, 180)
+            self.exit.tempcolor = (50, 50, 50)
             self.running = False
 
     def GetFrameRate(self):
